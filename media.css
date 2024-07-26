@@ -1,0 +1,249 @@
+
+@media(min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+    .header .nav .toggle-menu{
+        display: none;
+    }
+}
+
+@media (min-width:992px){
+    .container{
+        width: 85%;
+    }
+    .header .resp-menu{
+        display: none;
+}
+}
+@media (min-width: 768px) {
+    .container{
+        width: 85%;
+    }
+}
+@media (max-width:991px){
+  .nav-bar{
+    flex-wrap: wrap;
+  }
+  .nav-bar > a{
+    width: 100%;
+justify-content: center;
+  }
+  .nav-bar .nav{
+    width: 100%;
+    justify-content: center;
+    height: 0px;
+  }
+  .nav-bar .nav > li > a{
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+  article .row{
+    gap: 0px;
+    flex-wrap: wrap;
+  }
+ .col-3 ,.col-4{
+    width: 50%;
+  }
+  .feature .row{
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .feature .box .text h2::after{
+    left: 118px;
+  }
+  .skills .row{
+    display: grid;
+grid-template-columns: repeat(1 ,1fr);
+  }
+  .works .row .box{
+    display: block;
+  }
+  .works .row .box .im{
+    height: auto;
+  }
+  .text-vedio.col-4{
+    width: 100%;
+  }
+  
+  article .text{
+    width: 90% !important;
+    margin-bottom: 10px;
+  }
+  .gallery .row{
+    gap: 0px;
+    flex-wrap: wrap;
+  }
+ 
+  .testimonials .row ,.team-members .row ,.services .row , .pricing .row ,footer .row{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 44px;
+  }
+
+  .event-content .event-img{
+    display: none;
+  }
+  .events .form{
+    padding: 26px;
+    width: 100%;
+    left: 0%;
+    justify-content: center;
+  }
+  .dots-down,.dots-up{
+    width: 20%;
+  }
+  .dots-up{
+    right: 0px;
+  }
+  .videos .vedio-content,.discount{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+  }
+  .awesome .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.awesome .form-desc{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+footer .galery .im5{
+  height: 89px;;
+}
+footer .locate > span{
+  display: block;
+}
+footer .locate > span > i{
+  display: flex;
+justify-content: center;
+}
+footer .locate > span > h5{
+  text-align: center;
+}
+  
+  
+
+    .header .nav ul{
+        display: none;
+    }   
+    .header .form::before {
+        left: -37px;
+    }
+    .hero-section .text .content {
+        margin-left: 20px;
+      }
+      .hero-section .text {
+        width: 100%;}
+        .arrows .fa-angle-left,.arrows .fa-angle-right{
+            display: none;
+        }
+        .header .toggle-menu:hover + .resp-menu,
+            .header .resp-menu:hover{
+            display: block !important;
+          }
+          .service-content{
+            flex-wrap: wrap;
+          }
+          .col-6{
+            width: 100%;
+          }
+          .service-content .text {
+            gap: 25px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+          }
+          .service-content .text p {
+            margin-top: 19px;
+          }
+          .images .container{
+            display: block;
+          }
+          .images .col-8{
+            width: 100%;
+          }
+          .images .images-content{
+            left: 0;
+            top: 17%;
+            position: absolute;
+            width: 100%;
+          }
+
+          .shuffles{
+            flex-wrap: wrap;
+          }
+          .shuffles .col-3{
+            width: 50%;
+          }
+          .heading p{
+ 
+            width: 80%;
+          }
+          .about-img{
+            top: 39px;
+            width: 90%;
+          }
+          .states{
+            flex-wrap: wrap;
+            gap: 36px;
+
+          }
+          
+          .states-img{
+            height: auto;
+          }
+          .states-img .container{
+            height: auto;
+          }
+          .ourskills .container,.subscribe .container,.foot-form{
+            flex-wrap: wrap;
+          }
+          .ourskills .container .col-6{
+            width: 100%;
+          }
+          .pricing-features .container{
+            flex-wrap: wrap;
+          }
+          .pricing-features .container .col-3{
+            width: 48%;
+          }
+          .subscribe .container .col-5,
+          .subscribe .container .col-7,.foot-form .col-8,.foot-form .col-4{
+            width: 100%;
+          }
+          .subform .inp2{
+            right: 289px;
+          }
+          .nums, .aboutus{
+            left: 0px;
+          }
+          .subform{
+          
+          }
+}
+
+@media (max-width: 768px) {
+    .header .nav .toggle-menu{
+        display: block;
+    }
+    .header .nav .toggle-menu:hover .resp-menu{
+        display:block !important;
+    
+    }
+    .col-6{
+        width: 100% !important;
+    }
+   
+}
+@media (max-width: 520px) {
+    .shuffles .col-3{
+        width: 100%;
+      } 
+      .pricing-features .container .col-3{
+        width: 100%;
+      }
+}
